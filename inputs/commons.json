@@ -1,0 +1,13 @@
+{
+  "$defs": {
+    "maxArray": { "maxItems": 100, "type": "array" },
+    "minArray": { "minItems": 0, "type": "array" },
+    "smallArray": {
+      "$ref": "#/$defs/minArray",
+      "allOf": [{ "$ref": "#/$defs/minArray" }]
+    }
+  },
+  "$id": "https://example.com/commons.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "commons"
+}

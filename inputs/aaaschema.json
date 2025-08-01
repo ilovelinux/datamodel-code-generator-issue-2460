@@ -1,0 +1,20 @@
+{
+  "$defs": {
+    "AllowedAnimals": {
+      "oneOf": [{ "$ref": "#/$defs/dog" }, { "$ref": "#/$defs/cat" }]
+    },
+    "cat": { "properties": { "name": { "type": "string" } }, "type": "object" },
+    "dog": { "properties": { "name": { "type": "string" } }, "type": "object" }
+  },
+  "$id": "https://example.com/aaaschema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "animals": {
+      "$ref": "commons.json#/$defs/smallArray",
+      "items": { "$ref": "#/$defs/AllowedAnimals" }
+    }
+  },
+  "title": "animals",
+  "type": "object"
+}

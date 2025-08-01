@@ -1,0 +1,13 @@
+{
+  "$defs": {
+    "AllowedAnimals": { "additionalProperties": false, "type": "object" }
+  },
+  "$id": "https://example.com/bug.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "bug_animals": {
+      "additionalProperties": { "$ref": "#/$defs/AllowedAnimals" }
+    }
+  },
+  "title": "bug"
+}

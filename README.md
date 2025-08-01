@@ -6,6 +6,8 @@
 |[inputs/commons.json](inputs/commons.json)|[outputs/commons.py](outputs/commons.py)|
 |[inputs/bug.json](inputs/bug.json)|[outputs/bug.py](outputs/bug.py)|
 
+[Debug logs HERE](debug_logs.txt)
+
 ### Description of the problem
 
 - I define `allowedAnimals` in `aaaschema.json` as an array of objects

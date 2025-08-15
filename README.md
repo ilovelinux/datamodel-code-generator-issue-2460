@@ -1,3 +1,5 @@
+# Fixed with [PR #2461](https://github.com/koxudaxi/datamodel-code-generator/pull/2461)
+
 ## [datamodel-code-generator](https://github.com/koxudaxi/datamodel-code-generator/) reproducible example for [issue #2460](https://github.com/koxudaxi/datamodel-code-generator/issues/2460)
 
 |Inputs|Outputs|
